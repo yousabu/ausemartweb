@@ -1,0 +1,15 @@
+trigger:
+- main
+
+pool: yarb
+
+steps:
+- script: echo Hello,World!
+  displayName: 'Run a online script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project
+    echo see
+  displayName: 'Run a online test'
+
+  
